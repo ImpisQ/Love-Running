@@ -28,6 +28,10 @@ h1, h2 {
 
 /* navigation links */
 
+.navigation {
+    float: right;
+}
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -37,12 +41,10 @@ h1, h2 {
     line-height: 75px;
 }
 
-#menu ul {
-    float: left;
-}
+
 
 #menu li {
-    float: right;
+    float: left;
     list-style-type: none;
     margin-right: 30px;
 }
