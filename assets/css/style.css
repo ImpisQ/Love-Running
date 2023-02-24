@@ -37,11 +37,17 @@ h1, h2 {
     line-height: 75px;
 }
 
+
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
+
+#menu ul {
+    float: left;
+}
+
 
 #menu a {
     text-decoration: none;
