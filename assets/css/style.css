@@ -338,5 +338,18 @@ hr {
         padding: 0 20px;    
     }
 
+    #photos {
+        column-count: 3;
+    }
+
+    /* For Small Screen Sizes 800px & Below*/
+    @media screen and (max-width: 800px) {
+        #photos {
+            column-count: 2;
+        }
+    }
+        
+    }
+
 }
     
